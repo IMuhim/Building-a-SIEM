@@ -38,12 +38,15 @@ Upon the installation of the connector, it show up in the list of data connector
 
 # Creating Data Connection Rule
 
-I created the rule "WindowsEventsToSentinel" within the "Windows Security Events via AMA" connector page and made sure to select the "IstiakVM" as this is where the data will be pulled from. The created will check for successful sign ins via RDP. The MITRE ATT&CK option will is set to _Initial Access_ as this is what I am monitoring. The rule is set to run every 5 minutes. The query used in this rule retrieves security events where a user was successfully able to brute froce access to the virtual machine, excluding any events related to system accounts. The query for the rule is below.
+I created the rule "WindowsEventsToSentinel" within the "Windows Security Events via AMA" connector page and made sure to select the "IstiakVM" as this is where the data will be pulled from. The created will check for successful sign ins via RDP. The MITRE ATT&CK option will is set to _Initial Access_ as this is what I am monitoring. The rule is set to run every 5 minutes. The query used in this rule retrieves security events where a user was successfully able to brute froce access to the virtual machine, excluding any events related to system accounts. 
 
-```kql
-SecurityEvent 
-| where Activity contains "Success" and Account !contains "system"
-```
+
+> The KQL query used in this rule:
+> ```kql
+> 
+> SecurityEvent 
+> | where Activity contains "Success" and Account !contains "system"
+> ```
 
 ![Branching](4_Creating_Data_Connection_Rule.png)
 
