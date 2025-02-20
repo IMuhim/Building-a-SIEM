@@ -16,7 +16,7 @@ After the virtual machine is set up we can connect to it, view information such 
 
 # Deploying Microsoft Sentinel
 
-Once the virtual machine is set up, we need a log analystics workspace. This is can be done through Microsoft Sentienl. I created a log analytics workspace in Microsoft Sentinel and added it to the "IMGroup" resource group set up earlier.
+Once the virtual machine is set up, we need a log analystics workspace. This is can be done through Microsoft Sentinel. I created a log analytics workspace in Microsoft Sentinel and added it to the "IMGroup" resource group set up earlier.
 
 ![Branching](2_Log_Analytics_Workspace.png)
 
