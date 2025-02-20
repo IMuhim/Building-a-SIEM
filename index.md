@@ -49,9 +49,19 @@ I created the rule "WindowsEventsToSentinel" within the "Windows Security Events
 
 ![Branching](4_Creating_Data_Connection_Rule.png)
 
-The newly created rule,"Successful Sign Ins", will be listed in the _Analystics_ page within sentinel.
+The newly created rule,"Successful Sign Ins", will be listed in the _Analytics_ page within sentinel.
 
 ![Branching](5_Log_In_Rule.png)
+
+# Testing The Rule
+
+Now it is time to test the sentinel rule created. To do this I connected to _IstiakVM_ virtual machine using RDP to trigger an incident. The rule will run every 5 minutes as defined to monitor any successful log in attempts using RDP that is not a system account.
+
+I then checked the _Incidents_ page which showed that my connection via RDP triggered an alert.
+
+![Branching](6_Successful_Sign_In_Detected.png)
+
+The overview page shows the events and alerts overtime as well as the type of data recieved and analytics rules set up.
 
 > This is a blockquote following a header.
 >
