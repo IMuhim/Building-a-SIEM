@@ -16,13 +16,21 @@ After the virtual machine is set up we can connect to it, view information such 
 
 # Deploying Microsoft Sentinel
 
-Once the virtual machine is set up, we need a log analystics workspace. This is can be done through Microsoft Sentinel. I created a log analytics workspace in Microsoft Sentinel and added it to the "IMGroup" resource group set up earlier.
+Once the virtual machine is set up, we need a log analystics workspace. This is can be done through Microsoft Sentinel. I created a log analytics workspace, "IstiakM-Log", in Microsoft Sentinel and added it to the "IMGroup" resource group set up earlier.
 
 ![Branching](2_Log_Analytics_Workspace.png)
 
 After I created this workspace I added Microsoft Sentinel to the workspace. This is where incidents, automation and data will be presented, as shown below.
 
 ![Branching](7_Sentinel_Overview.png)
+
+# Sending Data To Sentinel
+
+The event logs of the virtual machine created previously need to be sent to the "IstiakM-Log" workspace. The workspace will then send the event log to sentinel.
+
+This can achieved by setting up a data connector. This allows sentinel to get data from the event log of the virtual machine. I selected and installed the "Windows Security Events" connector from _Content Hub_.
+
+![Branching](3_Install_Data_Connector.png)
 
 > This is a blockquote following a header.
 >
