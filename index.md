@@ -20,6 +20,10 @@ Once the virtual machine is set up, we need a log analystics workspace. This is 
 
 ![Branching](2_Log_Analytics_Workspace.png)
 
+After I created this workspace I added Microsoft Sentinel to the workspace. This is where incidents, automation and data will be presented, as shown below.
+
+![Branching](7_Sentinel_Overview.png)
+
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
