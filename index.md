@@ -2,8 +2,6 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
 # Creating A Virtual Machine
 
 Microsoft Azure can be accessed for free as a free trial is available for a limited amount of time. This project has been created using a Azure as it has all the tools required for this project. 
