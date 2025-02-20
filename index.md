@@ -8,7 +8,9 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 Microsoft Azure can be accessed for free as a free trial is available for a limited amount of time. This project has been created using a Azure as it has all the tools required for this project. 
 
-Firstly, I set up a virtual machine using the preset configuration. As part of setting up the virtual machine, I created a resource group which acts as a container for everything that will be created as part of this project. Crucially, I left the RDP port open as I will be generating RDP traffic as it is the most easily generated security event. 
+Firstly, I set up a virtual machine using the preset configuration. As part of setting up the virtual machine, I created the resource group "IMGroup" which acts as a container for everything created as part of this project. Crucially, I left the RDP port open as I will be generating RDP traffic, which is the most easily generated security event. 
+
+Once the virtual machine is set up we can connect to it, view information such as which resource group it belongs to and what operating system it is running.
 
 ![Branching](1_VM_ss.png)
 
