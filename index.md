@@ -4,9 +4,11 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-# Header 1
+# Creating a Virtual Machine
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Microsoft Azure can be accessed for free as a free trial is available for a limited amount of time. This project has been created using a Azure as it has all the tools required for this project. 
+
+Firstly, I set up a virtual machine using the preset configuration. As part of setting up the virtual machine, I created a resource group which acts as a container for everything that will be created as part of this project. Crucially, I left the RDP port open as I will be generating RDP traffic as it is the most easily generated security event. 
 
 ## Header 2
 
