@@ -49,6 +49,10 @@ I created the rule "WindowsEventsToSentinel" within the "Windows Security Events
 
 ![Branching](4_Creating_Data_Connection_Rule.png)
 
+The newly created rule,"Successful Sign Ins", will be listed in the _Analystics_ page within sentinel.
+
+![Branching](5_Log_In_Rule.png)
+
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
