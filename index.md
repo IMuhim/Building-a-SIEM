@@ -43,7 +43,6 @@ I created the rule "WindowsEventsToSentinel" within the "Windows Security Events
 
 > The KQL query used in this rule:
 > ```kql
-> 
 > SecurityEvent 
 > | where Activity contains "Success" and Account !contains "system"
 > ```
