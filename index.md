@@ -10,6 +10,8 @@ Microsoft Azure can be accessed for free as a free trial is available for a limi
 
 Firstly, I set up a virtual machine using the preset configuration. As part of setting up the virtual machine, I created a resource group which acts as a container for everything that will be created as part of this project. Crucially, I left the RDP port open as I will be generating RDP traffic as it is the most easily generated security event. 
 
+![Branching](1_VM_ss.png)
+
 ## Header 2
 
 > This is a blockquote following a header.
