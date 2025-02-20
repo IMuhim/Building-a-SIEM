@@ -10,11 +10,15 @@ Microsoft Azure can be accessed for free as a free trial is available for a limi
 
 Firstly, I set up a virtual machine using the preset configuration. As part of setting up the virtual machine, I created the resource group "IMGroup" which acts as a container for everything created as part of this project. Crucially, I left the RDP port open as I will be generating RDP traffic, which is the most easily generated security event. 
 
-Once the virtual machine is set up we can connect to it, view information such as which resource group it belongs to and what operating system it is running.
+After the virtual machine is set up we can connect to it, view information such as which resource group it belongs to and what operating system it is running.
 
 ![Branching](1_VM_ss.png)
 
-## Header 2
+# Deploying Microsoft Sentinel
+
+Once the virtual machine is set up, we need a log analystics workspace. This is can be done through Microsoft Sentienl. I created a log analytics workspace in Microsoft Sentinel and added it to the "IMGroup" resource group set up earlier.
+
+![Branching](2_Log Analytics Workspace.png)
 
 > This is a blockquote following a header.
 >
