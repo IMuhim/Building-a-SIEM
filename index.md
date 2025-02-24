@@ -6,7 +6,7 @@ layout: default
 
 Microsoft Azure can be accessed for free as a free trial is available for a limited amount of time. This project has been created using a Azure as it has all the tools required for this project. 
 
-Firstly, I set up a virtual machine using the preset configuration. As part of setting up the virtual machine, I created the resource group "IMGroup" which acts as a container for everything created as part of this project. Crucially, I left the RDP port open as I will be generating RDP traffic, which is the most easily generated security event. 
+Firstly, I set up a virtual machine using the preset configuration. As part of setting up the virtual machine, I created the resource group "IMGroup" which acts as a container for everything created as part of this project. Crucially, I left the RDP port open as I will be generating RDP traffic, which is the most easily generated security event. This is means the "IstiakVM" virtual machine will act as a honeypot for this project which threat actors can attack. 
 
 After the virtual machine, "IstiakVM", is set up we can connect to it, view information such as which resource group it belongs to and what operating system it is running.
 
